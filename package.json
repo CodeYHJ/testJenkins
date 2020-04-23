@@ -1,9 +1,14 @@
 {
   "scripts": {
-    "test":"mocha ./test/**/*.js"
+    "test": "mocha ./test/**/*.js"
+  },
+  "bin": {
+    "mocha": "./bin/mocha",
+    "_mocha": "./bin/_mocha"
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "mocha": "^7.1.1",
     "sinon": "^9.0.2",
     "sinon-chai": "^3.5.0"
   },
