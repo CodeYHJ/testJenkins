@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "test":"mocha ./test/**/*.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
+  },
+  "name": "testJenkins",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CodeYHJ/testJenkins.git",
+  "author": "CodeYHJ <colgateyhj@gmail.com>",
+  "license": "MIT"
+}
