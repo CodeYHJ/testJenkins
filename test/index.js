@@ -14,7 +14,7 @@ describe("test", () => {
   it("is string", () => {
     assert.isTrue(typeof a === "string");
   });
-  it("is function", () => {
-    assert.isTrue(typeof a === "function");
-  });
+  // it('is function',()=>{
+  //     assert.isTrue(typeof a === 'function')
+  // })
 });
